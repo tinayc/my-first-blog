@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>CoolioMofos's Blog</title>
+  </head>
+  <body>
+    <h1>CoolioMofos's Blog</h1>
+    <p>Sims 4 Journal</p>
+    {% for posts in posts%}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.text }}</p>
+    {% endfor %}
+  </body>
+</html>
